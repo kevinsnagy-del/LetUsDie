@@ -8,14 +8,14 @@ Online co-op for **LET IT DIE** through Steam, built on [Mod Drive 9000](https:/
 
 **Every player needs Mod Drive 9000 and Let Us Die, on the same versions.**
 
-This is a **beta**: co-op is new ground in this game, so expect desyncs and rough edges. Your saves are backed up before every install (`ModDriveInstaller\RestoreSaves.bat`).
+This is a **beta**: co-op is new ground in this game, so expect desyncs and rough edges. Your saves are backed up before every install (`ModDriveInstaller\ModDrive9000.exe`, **Backups**).
 
 ## Install
 
 1. Install [Mod Drive 9000](https://github.com/kevinsnagy-del/ModDrive9000) first.
 2. Download `LetUsDie-<version>.zip` from [Releases](../../releases), close the game, and unzip it into the LET IT DIE folder.
-3. Run `ModDriveInstaller\Install.bat` again.
+3. Open `ModDriveInstaller\ModDrive9000.exe` and choose **Apply mods to the game**.
 
-**Updates:** run `ModDriveInstaller\Update.bat`. **Remove:** run `ModDriveInstaller\Remove.bat` and type `letusdie`.
+**Updates and removal:** in `ModDriveInstaller\ModDrive9000.exe`, under **Mods**.
 
 LET IT DIE belongs to GungHo Online Entertainment / Supertrick Games. This is an unofficial fan project.
