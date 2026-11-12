@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.5-beta
+- Slow motion: a bullet-time mushroom (Slowmungus, Cateye Shroom) one player eats now slows the whole party on that floor, for the same time. Before, only the eater's game slowed down.
+- Slow motion: while teammates are on the host's floor, the host's game no longer slows down for kill cams and scripted slow motion (enemy positions follow the host's clock, so a slowed host put them out of step for everyone else).
+
 ## 0.9.4-beta
 - Heaven rush arenas (several bosses in a row): the host now decides when the next boss comes in, so every player sees the same one at the same time.
 - **Chests and loot boxes are shared now.** A chest one player opens opens for everyone, and a box one player breaks breaks for everyone (it worked in neither direction before). Any player can open them, not only the host.
