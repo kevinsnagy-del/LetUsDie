@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.9.7-beta
+- Everyone needs this version: players on an older one cannot join (the network format changed).
+- Needs Mod Drive 9000 1.4.1.
+- **Fixed: POSTMORTEM floors were different for every player.** The floor layout was too big to send and was skipped without a word; now everyone gets the host's floor.
+- Fixed: joining a room could crash (a floor record cut in the middle of a character). A member who rejoins gets the floor again, and a member whose host leaves the floor follows to the hub instead of being sent to the title.
+- **Sync check:** every machine compares what must match (the floor layout, enemies, chests, the POSTMORTEM run) and writes SYNC MISMATCH to the log when something differs; a different floor layout is also shown on screen.
+- **Enemies are run by the host:** everyone sees the same enemy animations and guards (members' copies only play what the host's enemies do).
+- Teammates' paired moves and finishers (grabs, stomps, back drops, carries, gore finishes), eating, healing, doors and levers are shown on their body.
+- Items and mines a teammate throws or sets down are shared.
+- Solo Shelter cannot be used in a party (the game's own "cannot be used"). The host's Tryptamine D takes the whole party home.
+- **Multiplayer menu:** a room opens a page in the game's own style with the room's rules and every player's real rank card; a listed room shows a summary with Join / Back first. Your own room reads "(your room)" and its button says Details.
+- New: **Edit the party panels live** (Let Us Die settings): shows sample members and lets you move and size the panels with the same controls as DeatHUD's live editor.
+
 ## 0.9.6-beta
 - **Shared world.** Things that happen in one player's game now happen in everyone's: level mines and explosives (stepped on, armed, exploded), fire and gasoline, breakable objects, the mines you set down and the mushrooms and items you throw. Crates shatter for everyone (each player still gets their own loot). A teammate's copy of a thrown item vanishes when it lands, so only the thrower can pick it up again; coin mushrooms are not copied.
 - Damage from these shared things counts once (on the host), not once per player.
