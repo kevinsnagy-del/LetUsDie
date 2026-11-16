@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.9.8-beta
+- Everyone needs this version: players on an older one cannot join (the network format changed).
+- Needs Mod Drive 9000 1.4.2.
+- **Fixed: members did not get the host's floor.** A floor record bigger than 16 KB arrived damaged, so the member built its own floor instead: other enemies (on POSTMORTEM's first floors, level-60 enemies hitting very hard), other materials and chests, kills that did not match, and an "enemy nearby" lock on the pause menu. It could also freeze or crash the member's game on arrival.
+- Fixed: some of a member's hits never reached the host's enemies.
+- Fixed: on the member's screen, every hit was counted twice.
+- Items picked up from the floor disappear for the whole party.
+- Teammates walk and run instead of sliding around.
+- A teammate's body changes less often (it used to be rebuilt on every item use, showing it without gear for a moment).
+- Teammates' bodies are hidden while you ride an elevator or escalator.
+- Your own map ping reads "Your marker" instead of "You".
+- A room whose host left is listed again at once with the new host (it used to be missing from the room list for up to 5 minutes).
+- The live party panel editor uses the game's own menu art.
+
 ## 0.9.7-beta
 - Everyone needs this version: players on an older one cannot join (the network format changed).
 - Needs Mod Drive 9000 1.4.1.
