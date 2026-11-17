@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9.9-beta
+- For the LET IT DIE update of November 2026 (game 5.0.6). Needs Mod Drive 9000 1.4.4.
+- New option: **Posture bars over allies** (with Heavenly Designs). Health bars over allies are on by default.
+- The co-op sync check also compares boss variants and events, so a mismatch shows in the log.
+
 ## 0.9.8-beta
 - Everyone needs this version: players on an older one cannot join (the network format changed).
 - Needs Mod Drive 9000 1.4.2.
