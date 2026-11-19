@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.10-beta
+- The automatic escalator ride also runs outside a party.
+- Enemy counts skip a mid boss's hidden spare pawns and enemies that are already gone.
+
 ## 0.9.9-beta
 - For the LET IT DIE update of November 2026 (game 5.0.6). Needs Mod Drive 9000 1.4.4.
 - New option: **Posture bars over allies** (with Heavenly Designs). Health bars over allies are on by default.
