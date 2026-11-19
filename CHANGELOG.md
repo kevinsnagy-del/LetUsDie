@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.11-beta
+- Needs Mod Drive 9000 1.4.5. Everyone in a party needs this version and POSTMORTEM 0.9.16-beta.
+- With POSTMORTEM, event enemies, event bosses and the VIP are not counted as floor enemies.
+
 ## 0.9.10-beta
 - The automatic escalator ride also runs outside a party.
 - Enemy counts skip a mid boss's hidden spare pawns and enemies that are already gone.
