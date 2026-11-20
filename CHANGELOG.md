@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.9.12-beta
+- Needs Mod Drive 9000 1.4.6. **Everyone in a party needs this version**: an older one is told to update instead of joining.
+- **The host decides every enemy.** Where enemies stand, their health, and when and how they die are the host's on every machine: movement is smoothed, a gore kill is a gore kill everywhere, and the area around every player stays awake.
+- **Bosses are the host's too.** A groggy boss is groggy for everyone, and one finisher plays on every screen.
+- A member's hits land through the host, and enemy gunfire is shown on every machine.
+- **Chests open once and pay once.** A chest opened by a teammate opens on your screen too, without paying you a second time.
+- Gate buttons pressed by a teammate open the gate for everyone.
+- You see what your teammates wear as they change gear, and their animations (stomps, opening chests, pressing buttons, climbing ...) play on their bodies.
+- A teammate's nameplate shows their name, not "Custom Enemy".
+- In a party a member never builds a floor of their own: they wait for the host's floor, and go to the waiting room if it cannot be loaded.
+- Menus no longer pause the game for everyone while you play together.
+- Fixed a crash for every player when leaving a floor by elevator.
+- **Problem check:** every machine compares its world with the host's, every enemy, chest, gate button, drop and teammate, and writes what differs to the log, naming the object.
+- **Mark a moment:** if something looks wrong, press **Insert** or **End**, or hold **D-pad up** for a second. It is marked in the log of every player in the party, together with what differs at that moment, and goes with your next bug report.
+
 ## 0.9.11-beta
 - Needs Mod Drive 9000 1.4.5. Everyone in a party needs this version and POSTMORTEM 0.9.16-beta.
 - With POSTMORTEM, event enemies, event bosses and the VIP are not counted as floor enemies.
