@@ -24,7 +24,7 @@ This is a **beta**: co-op is new ground in this game, so expect desyncs and roug
 - **Friendly fire:** off by default, switchable for the room.
 - **Ready check** before floor changes and at boss doors.
 - **Pings:** mark a spot or an enemy for the whole party (middle mouse, left Alt or D-pad up).
-- **Something looks wrong?** Press **Insert** or **End**, or hold **D-pad up** for a second. The moment is marked in every player's log, together with what differs between your machines, and goes with your next bug report from Mod Drive 9000.
+- **Something looks wrong?** Press **End**, or hold **D-pad up** for a second. The moment is marked in every player's log, together with what differs between your machines, and goes with your next bug report from Mod Drive 9000.
 - **Co-op notices**, and co-op error codes on the game's own error screen.
 - **POSTMORTEM runs** can be played together when POSTMORTEM is installed.
 
