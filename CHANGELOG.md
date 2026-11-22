@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.13-beta
+- Update Mod Drive 9000 to 1.4.7 together with this version. **Everyone in a party needs this version.**
+- Fixed: with many co-op channels in use, POSTMORTEM's channel was refused and retried every frame (a huge log). Up to 128 channels now, and a refusal is logged once.
+
 ## 0.9.12-beta
 - Needs Mod Drive 9000 1.4.6. **Everyone in a party needs this version**: an older one is told to update instead of joining.
 - **The host decides every enemy.** Where enemies stand, their health, and when and how they die are the host's on every machine: movement is smoothed, a gore kill is a gore kill everywhere, and the area around every player stays awake.
