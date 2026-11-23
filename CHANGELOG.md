@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.9.14-beta
+- Update Mod Drive 9000 to 1.4.8 together with this version. **Everyone in a party needs this version.**
+- **Party difficulty works on every floor and lasts the whole fight.** The extra enemy health for a bigger party stopped after the first floor, and a hater or Jackal lost it at its first hit.
+- **No one is stranded after a boss:** if a boss dies on the host but not on your screen (you were in a cutscene), it now dies 15 s later, and the backup finisher starts if the real one never arrives.
+- A teammate's gore finishes, stealth finishers and perfect-guard counters now land on the real enemy.
+- A teammate's blasts (mines, explosives, traps, thrown items) no longer hit enemies twice.
+- Enemies, beasts and mid-bosses with spawned ids now follow the host on every machine (position, health and death).
+- Enemies next to a teammate far from the host no longer fall asleep on the host and drift apart.
+- A teammate is no longer redressed for gear they already wear, and a player who takes over a slot is not dressed in the previous player's armour.
+- Escalator rides follow the escalator the host actually took. Tryptamine D waits until you are alive and out of a finisher before taking you home.
+- "Join your party" follows the host into another area of the same floor, and disappears when the host has left the session.
+- A temporary elevator stop granted for co-op is always taken back, from the right save, even after a crash.
+- DeatHUD no longer counts as a "different game files" difference between players.
+- Less work every frame: several checks that repeated every few seconds now run only when something changes.
+
 ## 0.9.13-beta
 - Update Mod Drive 9000 to 1.4.7 together with this version. **Everyone in a party needs this version.**
 - Fixed: with many co-op channels in use, POSTMORTEM's channel was refused and retried every frame (a huge log). Up to 128 channels now, and a refusal is logged once.
