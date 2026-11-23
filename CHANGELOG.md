@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.9.15-beta
+- Update Mod Drive 9000 to 1.4.9 together with this version. **Everyone in a party needs this version.**
+- **The host's elevator no longer looks locked:** choosing a floor starts the ready check, and once everyone is ready the next confirm rides.
+- **The ready check list uses the game's own menu art.**
+- Teammates' super-weapon effects are cleared cleanly on a floor change.
+- Several co-op readers no longer use the previous floor's state after a ride.
+
 ## 0.9.14-beta
 - Update Mod Drive 9000 to 1.4.8 together with this version. **Everyone in a party needs this version.**
 - **Party difficulty works on every floor and lasts the whole fight.** The extra enemy health for a bigger party stopped after the first floor, and a hater or Jackal lost it at its first hit.
