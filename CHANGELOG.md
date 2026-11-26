@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.9.16-beta
+- Update Mod Drive 9000 to 1.5.0 together with this version.
+- Teammates move just as smoothly when someone in the party plays above 60 fps. Position updates are sent 20 times a second at any frame rate.
+- **Everyone in a party needs this version** (the co-op data changed).
+- **Teammates look like what they are doing:** their rage gauge fills in the party panel; walking, running, strafing and stopping use their own animations; drop kicks, charges and rage attacks show as themselves instead of a weapon swing; poison, cloak, frog, power-ups and being electrified show on them.
+- **Enemies on a member's screen follow the host:** a killed boss no longer dies again and again (with the slow-motion kill cam), a riposted enemy no longer keeps walking backwards, a groggy enemy kneels and can be finished, and enemy health matches the host's.
+- **Mid-boss entrances:** when one player walks into a mid-boss's entrance, the scene plays for everyone on the floor once, and the boss no longer jumps inside it.
+- **Elevators:** the ready check no longer starts by itself from the press that opened the elevator. When the host rides back to the waiting room, members follow at once, and a member can pick the waiting room themselves.
+- **Escalator:** the host's confirm works again, and only the escalator's own prompt shows.
+- Crates on a floor are shared with members again.
+- A teammate's body is no longer re-dressed over a bare-fist weapon level.
+
 ## 0.9.15-beta
 - Update Mod Drive 9000 to 1.4.9 together with this version. **Everyone in a party needs this version.**
 - **The host's elevator no longer looks locked:** choosing a floor starts the ready check, and once everyone is ready the next confirm rides.
