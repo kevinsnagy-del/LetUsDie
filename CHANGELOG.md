@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.9.17-beta
+- **Everyone in a party needs this version** (the co-op data changed). Update Mod Drive 9000 to 1.5.1 together with it.
+- **Teammates move like themselves:** every animation layer of a teammate is shown on your screen (arms, upper body, weapon animations, play speed, aiming up and down). Eating, banging a vending machine, gore finishes, jumps, dodges and moving attacks no longer turn into a walk.
+- **Enemies on a member's screen move like the host's:** their arms, upper body, blends, speed and aim follow the host too.
+- **Rage moves and shots show on teammates:** a teammate's skill-move effects (the arm glow, charges, beams, flames) appear on their body, and their gun, bow and launcher shots fly from it. The copies cannot hurt anyone. A teammate's body no longer fires real shots or sets real mines on your screen.
+- **Hits show on every screen:** sparks, blood, guard sparks and just-guard flashes on enemies and on teammates.
+- **Enemy states follow the host:** an enemy asleep, confused, blinded, poisoned or electrified looks the same on every screen and recovers when the host's does.
+- **Drops and the world are the host's:** an enemy's item drop is the host's roll, an elevator powered by one player is powered for everyone, a vending machine broken open is broken for everyone, and opened chests stay open for everyone (anyone can take what is in an item chest; coins are the opener's).
+- **Join your party:** enemies the host already killed are not there any more when you arrive late, even in big hordes. A player who joins during the ready check is asked too.
+- **Rides:** an escalator ride no longer pulls a member out of the escalator, drops them through the floor or kills them in the ride; riders arrive next to the host. When the host goes back to the waiting room (also by dying), members follow at once. A member in the waiting room gets the ready check when the host starts a run.
+- A teammate who dies keeps their gear on the corpse, the level over their head stays current, and a weapon switch no longer rebuilds their body.
+- A teammate's finisher no longer slows down your game.
+- With waiting-room visitors on, teammates' animations play in the waiting room too.
+
 ## 0.9.16-beta
 - Update Mod Drive 9000 to 1.5.0 together with this version.
 - Teammates move just as smoothly when someone in the party plays above 60 fps. Position updates are sent 20 times a second at any frame rate.
